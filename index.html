@@ -38,17 +38,18 @@
 </nav>
 <!-- /navbar -->
 <!-- jumbotron -->
+      <div class="p-3 mb-2 bg-success text-white">
     <div class="jumbotron jumbotron-fluid">
-  <div class="container p-3 mb-2 bg-success text-white text-sm-center pt-5">
+  <div class="container text-sm-center pt-5">
    <h1 class="display-4">WordCamp Prague</h1>
     <p class="lead">A One-day Conference About WordPress</p>
    <div class="mt-5">
-      <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register"> Register Now </button>
+     <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register"> "Register Now"</button>
       <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
        </div> <!--close mt-5 div-->
       </div> <!--close container div-->
      </div> <!-- close jumbotron fluid div-->
-  
+    </div> <!--close p-3 div-->
 <!-- /jumbotron -->
 <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -65,6 +66,7 @@
           <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
     </div> <!--close class col-lg order-lg-2 div-->
 	  <div class="col-lg order-lg-1">
+	  <h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
    	 	<h3 class="mb-4">Expert Speakers</h3>
         <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
         <p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
@@ -85,7 +87,6 @@
 	   </div> <!--close about container div -->
 <!-- /about -->
 <!-- speakers -->
-<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
 <div class="row">
   <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
@@ -289,7 +290,111 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+<!-- form starts -->
+ <form>
+	<div class="form-group row">
+		<h1>Register for WordCamp</h1>
+		<div class="alert alert-success" role="alert">
+				Hurry! Early bird registration ends in two days.
+		</div>
+		<div class="form-group row">
+			<h2>Basic Info</h2>
+	<div class="form-group row">
+    	<label for="inputName" class="col-sm-2 col-form-label">Name</label>
+    	<div class="col-sm-10">
+      	<input type="name" class="form-control" id="inputName" placeholder="Name">
+    </div>
+  </div>
+	<div class="form-group row">
+    	<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    	<div class="col-sm-10">
+      	<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+	<div class="form-group row">
+		<h2>What is your job role?</h2>
+      <label for="jobRole">Job Role: </label>
+      <select id="job" class="form-control">
+        <option selected>Choose...</option>
+        <option>WordPress Developer</option>
+		<option>Computer Programmer</option>
+		<option>Android Developer</option>
+		<option>IOS Developer</option>
+		<option>Web Developer</option>
+		<option>Web Designer</option>
+		<option>Student</option>
+		<option>Other</option>
+      </select>
+    </div>
+	<div class="form-check">
+		<h2>Which Topics Interest You Most?</h2>
+	<div class="form-check">
+  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  		<label class="form-check-label" for="defaultCheck1">
+   	 	WordPress Plugins
+ 	 	</label>
+	</div>
+	<div class="form-check">
+  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+  		<label class="form-check-label" for="defaultCheck2">
+    	PHP
+  		</label>
+	</div>
+	<div class="form-check">
+  		<input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+  		<label class="form-check-label" for="defaultCheck2">
+    	CSS and JavaScript
+  		</label>
+	</div>
+	 </div> 
+	</div>
+	<div class="form-row">
+		<h2>Payment Info</h2>
+    <div class="col-7">
+      <input type="text" class="form-control" placeholder="Card Number">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Zip">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="CCV">
+    </div>
+	<div class="form-group col-md-4">
+      <label for="inputDate">Expiration Date:</label>
+      <select id="inputDate" class="form-control">
+        <option selected>Choose...</option>
+		  <option>1-January</option>
+		  <option>2-February</option>
+		  <option>3-March</option>
+		  <option>4-April</option>
+		  <option>5-May</option>
+		  <option>6-June</option>
+		  <option>7-July</option>
+		  <option>8-August</option>
+		  <option>9-September</option>
+		  <option>10-October</option>
+		  <option>11-November</option>
+		  <option>12-December</option>
+		</select>
+    </div>
+	<div class="form-group col-md-4">
+      <label for="inputYear">Year</label>
+      <select id="inputYear" class="form-control">
+        <option selected>Choose...</option>
+		  <option>2019</option>
+		  <option>2020</option>
+		  <option>2021</option>
+		  <option>2022</option>
+		  <option>2023</option>
+		  <option>2024</option>
+		  <option>2025</option>
+      </select>
+    </div>
+  </div>
+<button type="submit" class="btn btn-primary">Register</button>			
+</div>
+</form>
+<!-- form ends -->
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
