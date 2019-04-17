@@ -4,22 +4,22 @@ body {
 	padding: 2px;
 }
 
-.navbar {
+nav {
 	font-family: 'Poiret One', cursive;
 }
 
-.jumbotron {
+jumbotron {
 	font-family: 'Poiret One', cursive;
 }
 
-.about {
+about {
 	font-family: 'Poiret One', cursive;
 }
 
-.speakers {
+speakers {
 	font-family: 'Poiret One', cursive;
 }
 
-.footer {
+footer {
 	font-family: 'Poiret One', cursive;
 }
