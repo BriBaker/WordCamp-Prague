@@ -1,6 +1,25 @@
 body {
 	background-color: #6EF8A4;
 	margin: 0 auto;
+	padding: 2px;
+}
+
+.navbar {
 	font-family: 'Poiret One', cursive;
 }
 
+.jumbotron {
+	font-family: 'Poiret One', cursive;
+}
+
+.about {
+	font-family: 'Poiret One', cursive;
+}
+
+.speakers {
+	font-family: 'Poiret One', cursive;
+}
+
+.footer {
+	font-family: 'Poiret One', cursive;
+}
