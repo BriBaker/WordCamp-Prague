@@ -4,8 +4,9 @@ body {
 	padding: 2px;
 }
 
-nav {
+navbar {
 	font-family: 'Poiret One', cursive;
+	
 }
 
 title {
@@ -13,17 +14,19 @@ title {
 }
 
 .jumbotron {
+	background: url(greatimage.jpg);
 	font-family: 'Poiret One', cursive;
 }
 
-.about {
+#about {
 	font-family: 'Poiret One', cursive;
 }
 
-.speakers {
+#speakers {
 	font-family: 'Poiret One', cursive;
 }
 
-footer {
+#footer {
 	font-family: 'Poiret One', cursive;
 }
+
