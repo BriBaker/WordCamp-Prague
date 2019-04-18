@@ -13,8 +13,33 @@ title {
 	font-family: 'Poiret One', cursive;
 }
 
+navbar {
+	font-family: 'Poiret One', cursive;
+	
+}
+
+title {
+	font-family: 'Poiret One', cursive;
+}
+
 .jumbotron {
-	background: url(3.jpg);
+	background-image: url("3.jpg");
+	font-family: 'Poiret One', cursive;
+}
+
+#about {
+	font-family: 'Poiret One', cursive;
+}
+
+#speakers {
+	font-family: 'Poiret One', cursive;
+}
+
+#footer {
+	font-family: 'Poiret One', cursive;
+}
+
+
 	font-family: 'Poiret One', cursive;
 }
 
