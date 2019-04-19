@@ -1,62 +1,72 @@
-body {
-	background-color: #6EF8A4;
-	margin: 0 auto;
-	padding: 2px;
+
+@charset "utf-8";
+/* CSS Document */
+
+.bg-light{
+	background-color: #0F1447 !important;
 }
 
-nav {
-	background-image: url("3.jpg");
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
+.navbar-light .navbar-toggler {
+	color: rgba(255,255,255) !important;
+	background-color: rgba(255,255,255)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: #ff881e !important;
+}
+.navbar-light .navbar-brand{
+	color: #fff !important;
+}
+.bg-primary{
+	background-color: none !important;
+}
+
+.text-warning{
+	color: #0f1447!important;
+}
+
+.btn-secondary{
+	background-color: #D4D1D1 !important;
+	border: none !important;
+	color: #0f1447 !important;
 	
+
 }
 
-title {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
+.jumbotron {
+background-image: url("images/wordcamp2.jpg") !important;
+background-size: cover;
+}
+h3{
+	color: #fff !important;
+	background-color: #0f1447 !important;
+	text-align: center;
 }
 
-.jumbotron-fluid {
-	background-color: #D1D02D;
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
+.text-muted{
+	color: #0f1447 !important;
 }
 
-#about {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
-	font-size: 18px;
+.card-title{
+	color: #0f1447 !important;
 }
 
-#speakers {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bolder;
-	font-size: 24px;
+
+.list-group-item-action{
+	color:  #7D7D7D !important;
 }
 
-#footer {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
-	font-size: 18px;
+.card-body{
+	background-color: #ff881e !important;
 }
 
-h3 {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
-	font-size: 24px;
+h5{
+	color: #0f1447 !important;
 }
 
-.list-group-item {
-	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bolder;
-	font-size: 18px;
+a{
+	color: #ff881e !important;
 }
-
