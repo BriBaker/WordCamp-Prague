@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+	background-image: url("3.jpg");
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
