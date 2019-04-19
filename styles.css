@@ -1,58 +1,61 @@
-@charset "utf-8";
 body {
-	background-color: #6EF8A4 !important;
-	margin: 0 auto !important; 
-	padding: 2px !important;
+	background-color: #6EF8A4;
+	margin: 0 auto;
+	padding: 2px;
 }
 
 nav {
-	background-image: url("3.jpg") !important;
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
 	
 }
 
 title {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
 }
 
 .jumbotron-fluid {
-	background-image: url("3.jpg") !important;
-	background-size: cover !important;
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	background-color: #D1D02D;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
 }
 
 #about {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 #speakers {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bolder !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 24px;
 }
 
 #footer {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 h3 {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bold !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .list-group-item {
-	font-family: 'Poiret One', cursive !important;
-	color: #000000 !important;
-	font-weight: bolder !important;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 18px;
 }
+
