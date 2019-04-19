@@ -1,0 +1,61 @@
+body {
+	background-color: #6EF8A4;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+nav {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	
+}
+
+title {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+.jumbotron-fluid {
+	background-color: #D1D02D;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+#about {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#speakers {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+#footer {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.list-group-item {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
