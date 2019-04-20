@@ -1,20 +1,36 @@
+
 body {
-	background-color: #6EF8A4;
+	background-color: #000000;
 	margin: 0 auto;
 	padding: 2px;
 }
 
-nav {
+.container {
+	background-color: #6EF8A4;
 	font-family: 'Poiret One', cursive;
-	color: #000000;
-	font-weight: bold;
-	
+	color: #FFFFFF;
+	font-weight: bolder;
 }
 
-title {
+
+
+.navbar-nav {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+}
+
+.display-4 {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
+}
+
+.lead {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+
 }
 
 .jumbotron-fluid {
@@ -22,40 +38,109 @@ title {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
+	padding: 15px;
 }
 
 #about {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
-	font-size: 18px;
 }
 
 #speakers {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bolder;
-	font-size: 24px;
 }
 
 #footer {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
-	font-size: 18px;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
 }
 
 h3 {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bold;
-	font-size: 24px;
 }
 
 .list-group-item {
+	background-color: #D1D02D;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+.mb-1 {
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bolder;
-	font-size: 18px;
+}
+
+.row {
+	background-color: #D1D02D;
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+}
+
+.card {
+	background-color: #FFFFFF;
+}
+
+.card-body {
+	background-color: #D1D02D;
+}
+
+.card-title {
+	background-color: #000000;
+	font-family: 'Poiret One', cursive;
+	color: #6EF8A4;
+	font-weight: bold;
+}
+
+.col-md {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-link {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+.nav-item {
+	font-family: 'Poiret One', cursive;
+	color: #000000;
+	font-weight: bolder;
+}
+
+.list-group {
+	background-color: #6EF8A4;
+}
+
+.collapse {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+.dropdown-menu {
+	background-color: #000000;
+}
+
+.dropdown-item {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-weight: bolder;
 }
 
