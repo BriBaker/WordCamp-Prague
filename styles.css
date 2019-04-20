@@ -1,6 +1,6 @@
 body {
-	background: url("image/back.jpg") no-repeat fixed;
-background-size: cover;
+	background-image: url("image/back.jpg") no-repeat fixed;
+	background-size: cover;
 }
 
 .container {
