@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-	background-image: url("image/3.jpg");
+	background-color: #6EF8A4;
 	font-family: 'Patrick Hand', cursive;
 	color: #FFFFFF;
 }
@@ -26,17 +26,10 @@ body {
 	color: #000000;
 }
 
-.jumbotron-fluid {
-	background-color: #F3EC45;
-	font-family: 'Patrick Hand', cursive;
-	color: #000000;
-	padding: 15px;
-}
-
- .jumbotron {
-   background-color: transparent;
-   padding-top: 5px;
-   margin-bottom: 5px;
+.jumbotron {
+  	background-image: url("image/3.jpg");
+  	padding-top: 5px;
+  	margin-bottom: 5px;
 }
 
 #about {
