@@ -6,12 +6,10 @@ body {
 }
 
 .container {
-	background-color: #6EF8A4;
+	background-image: url("image/3.jpg");
 	font-family: 'Patrick Hand', cursive;
 	color: #FFFFFF;
 }
-
-
 
 .navbar-nav {
 	font-family: 'Patrick Hand', cursive;
@@ -33,6 +31,12 @@ body {
 	font-family: 'Patrick Hand', cursive;
 	color: #000000;
 	padding: 15px;
+}
+
+ .jumbotron {
+   background-color: transparent;
+   padding-top: 5px;
+   margin-bottom: 5px;
 }
 
 #about {
