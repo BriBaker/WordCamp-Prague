@@ -104,7 +104,7 @@ h3 {
 
 .col-md {
 	font-family: 'Poiret One', cursive;
-	color: #FFFFFF;
+	color: #000000;
 	font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ h3 {
 }
 
 .dropdown-menu {
-	background-color: transparent;
+	background-color: #000000;
 }
 
 .dropdown-item {
