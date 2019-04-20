@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-	background-color: rgb(0, 255, 0, 0.5);
+	background-color: rgb(0, 255, 0, 0.6);
 	font-family: 'Poiret One', cursive;
 	color: #000000;
 	font-weight: bolder;
@@ -104,13 +104,13 @@ h3 {
 
 .col-md {
 	font-family: 'Poiret One', cursive;
-	color: #FFFFFF;
+	color: #000000;
 	font-weight: bold;
 }
 
 .nav-link {
 	font-family: 'Poiret One', cursive;
-	color: #FFFFFF;
+	color: #000000;
 	font-weight: bold;
 }
 
