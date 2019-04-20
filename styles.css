@@ -7,88 +7,74 @@ body {
 
 .container {
 	background-color: #6EF8A4;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #FFFFFF;
-	font-weight: bolder;
 }
 
 
 
 .navbar-nav {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bolder;
 }
 
 .display-4 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 .lead {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
-
 }
 
 .jumbotron-fluid {
 	background-color: #D1D02D;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 	padding: 15px;
 }
 
 #about {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 #speakers {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bolder;
 }
 
 #footer {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 h2 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 h3 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 .list-group-item {
 	background-color: #D1D02D;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 .mb-1 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bolder;
 }
 
 .row {
 	background-color: #D1D02D;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bolder;
 }
 
 .card {
@@ -101,27 +87,23 @@ h3 {
 
 .card-title {
 	background-color: #000000;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #6EF8A4;
-	font-weight: bold;
 }
 
 .col-md {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 .nav-link {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bold;
 }
 
 .nav-item {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #000000;
-	font-weight: bolder;
 }
 
 .list-group {
@@ -129,9 +111,8 @@ h3 {
 }
 
 .collapse {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #FFFFFF;
-	font-weight: bolder;
 }
 
 .dropdown-menu {
@@ -139,8 +120,7 @@ h3 {
 }
 
 .dropdown-item {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Patrick Hand', cursive;
 	color: #FFFFFF;
-	font-weight: bolder;
 }
 
