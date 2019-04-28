@@ -1,1 +1,38 @@
 
+$wc-color-purple: #9e02c9;
+
+$wc-color-green: #44FC03;
+
+/*Body*/
+
+body {
+	background-image: linear-gradient(to bottom, #9e02c9, #c100b9, #dc00a8, #f00098, #ff0188);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+	&.navbar-nav {
+		.nav-link {
+			color: $wc-color-green;
+			&.active {
+				color: $wc-color-purple;
+			}
+		}
+	}
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: $wc-color-green;
+	
+}
