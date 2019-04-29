@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!--My Css-->
-	 <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet"> 
-	  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
-	  <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-    <title>WordCamp Prague</title>
+	 <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+	 <link href="css/styles.css" rel="stylesheet" type="text/css">
+	 <link href="scss/styles.scss.css" rel="stylesheet" type="text/css">
+  <title>WordCamp Prague</title>
     </head>
   <body data-spy="scroll" data-target=".navbar" id="home">
+	  
 
 <!-- navbar -->
     <nav class="navbar navbar-light ">
@@ -42,18 +43,20 @@
 </nav>
 <!-- /navbar -->
 	  
+	  
 <!-- jumbotron -->
-    <section class="jumbotron jumbotron-fluid">
+ <section class="jumbotron jumbotron-fluid">
   <div class="container p-3 mb-2 text-white text-sm-center pt-5">
    <h1 class="display-4">WordCamp Prague</h1>
     <p class="lead">A One-day Conference About WordPress</p>
-   <div class="mt-5">
-      <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#register"> Register Now! </button>
-      <a class="btn btn-dark btn-lg" href="#speakers">See Speakers</a>
-       </div> <!--close mt-5 div-->
-      </div> <!--close container div-->
+   		<div class="mt-5">
+      		<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#register"> Register Now! </button>
+      		<a class="btn btn-dark btn-lg" href="#speakers">See Speakers</a>
+       	</div> <!--close mt-5 div-->
+       </div> <!--close container div-->
      </section> <!-- close jumbotron fluid div-->
   <!-- /jumbotron -->
+	  
 	  
 <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -61,195 +64,207 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
+	  
 <!-- about -->
 <section class="section-about" id="about">
 <div class="container">
-  <div class="row" id="about">
-    <div class="col-lg order-lg-2">    
-        <h3 class="mb-4">About WordCamp</h3>
+  <div class="row">
+    <div class="col-lg order-lg-2 col-about">    
+        <h3 class="mb-4 ">About WordCamp</h3>
       	 <img class="img-fluid rounded" src="Prague.jpg" alt="Photo of Prague,Czech Republic">
           <p>The beautiful city of Prague will be the host city for WordCamp!</p>
           <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
     	</div> <!--close class col-lg order-lg-2 div-->
-	<div class="col-lg order-lg-1">
+	<div class="col-lg order-lg-1 col-speaker">
    	 <h3 class="mb-4">Expert Speakers</h3>
            <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
            <p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
            <p>WordCamp is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
 	 </div>
-    <div class="col-lg order-lg-3">
+    <div class="col-lg order-lg-3 col-topics">
       <h3 class="mb-4">What You'll Learn</h3>
         <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
-  <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
-  <a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
-  <a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
-  <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
-  <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
-	</div> <!--close class list group div -->
+  			<a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+  			<a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
+  			<a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+  			<a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+  			<a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+  			<a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
+		</div> <!--close class list group div -->
        </div> <!--close class col-lg order-lg-1 div -->
      </div> <!--close class row div-->
    </div>
 </section>
 <!-- /about -->
-	
+	 
+	  
 <!-- speakers -->
-<div class="container pt-4">
-<h2 id="speakers" class="display-4 text-center my-5 ">Speakers</h2>
-<div class="row">
+<section class="section-speaker" id="speaker">
+	<div class="container">
+		<h2 class="display-4 text-center my-5 ">Speakers</h2>
+			<div class="row">
+  				<div class="col-md-6 col-lg-4">
+    				<div class="card mb-3">
+   						<img class="card-img-top" src="TeddyEBear.jpg" alt="Mr. Ted E. Bear">
+  							<div class="card-body">
+   								<h4 class="card-title">Mr. Ted E. Bear</h4>
+    								<p class="card-text">Mr. Ted E. Bear comes from Ireland. He is excited to speak about the new advances in Android Development.</p>
+  						</div>
+ 				</div>
+		</div>
   <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
-   <img class="card-img-top" src="TeddyEBear.jpg" alt="Mr. Ted E. Bear">
-  <div class="card-body">
-   <h4 class="card-title">Mr. Ted E. Bear</h4>
-    <p class="card-text">Mr. Ted E. Bear comes from Ireland. He is excited to speak about the new advances in Android Development.</p>
-  </div>
- </div>
-</div>
-  <div class="col-md-6 col-lg-4">
-    <div class="card mb-3">
-   <img class="card-img-top" src="LinUx.jpg" alt="Mr. Lin Ux">
-  <div class="card-body">
-   <h4 class="card-title">Mr. Lin Ux</h4>
-    <p class="card-text">Mr. Lin Ux comes from a very far away part of Antiarctica. He is looking forward to teaching a class on 
+   		<img class="card-img-top" src="LinUx.jpg" alt="Mr. Lin Ux">
+  			<div class="card-body">
+   				<h4 class="card-title">Mr. Lin Ux</h4>
+    				<p class="card-text">Mr. Lin Ux comes from a very far away part of Antiarctica. He is looking forward to teaching a class on 
                         Linux operations and how you can add Linux to your life!</p>
-  </div>
- </div>
-</div>
+  			</div>
+ 		</div>
+	</div>
   <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
-   <img class="card-img-top" src="UniCorn.jpg" alt="Uni Corn">
-  <div class="card-body">
-   <h4 class="card-title">Ms. Uni Corn</h4>
-    <p class="card-text">Ms. Uni Corn is here from Lyon, France and she is very excited to talk about the new 
+   		<img class="card-img-top" src="UniCorn.jpg" alt="Uni Corn">
+  			<div class="card-body">
+   				<h4 class="card-title">Ms. Uni Corn</h4>
+    				<p class="card-text">Ms. Uni Corn is here from Lyon, France and she is very excited to talk about the new 
                          advances in the Adobe Color spectrum. </p>
-  </div>
- </div>
-</div>
+  				</div>
+ 		</div>
+	</div>
   <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
-   <img class="card-img-top" src="CopPup.jpg" alt="Buster O. Criminals">
-  <div class="card-body">
-   <h4 class="card-title">Mr. Buster O. Criminals</h4>
-    <p class="card-text">Mr. Buster O. Criminals comes from America. He is a very young but experienced boy who is eager to help
+   		<img class="card-img-top" src="CopPup.jpg" alt="Buster O. Criminals">
+  			<div class="card-body">
+   				<h4 class="card-title">Mr. Buster O. Criminals</h4>
+    				<p class="card-text">Mr. Buster O. Criminals comes from America. He is a very young but experienced boy who is eager to help
                         with any of your IT security questions and to talk about new advances in security.</p>
-  </div>
- </div>
-</div>
+  			</div>
+ 		</div>
+	</div>
  <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
-   <img class="card-img-top" src="Ram.jpg" alt="Ramold Hardware">
-  <div class="card-body">
-   <h4 class="card-title">Mr. Ramold Hardware</h4>
-    <p class="card-text">Mr. Ramold Hardware is from Scotland. He is pleased to be introducing the newest RAM upgrades that are available to all of those in the coding and
+   		<img class="card-img-top" src="Ram.jpg" alt="Ramold Hardware">
+  			<div class="card-body">
+   				<h4 class="card-title">Mr. Ramold Hardware</h4>
+    				<p class="card-text">Mr. Ramold Hardware is from Scotland. He is pleased to be introducing the newest RAM upgrades that are available to all of those in the coding and
                         design fields. Upgrading hardware is what he lives for!</p>
-  </div>
- </div>
-</div>
-  <div class="col-md-6 col-lg-4">
+  			</div>
+ 		</div>
+	</div>
+ <div class="col-md-6 col-lg-4">
     <div class="card mb-3">
-   <img class="card-img-top" src="PeterPython.jpg" alt="Peter Python">
-  <div class="card-body">
-   <h4 class="card-title">Mr. Peter Python</h4>
-    <p class="card-text">Mr. Peter Python is joining us from India. He is here to speak with you about the advances in the Python programming 
+   		<img class="card-img-top" src="PeterPython.jpg" alt="Peter Python">
+  			<div class="card-body">
+   				<h4 class="card-title">Mr. Peter Python</h4>
+    				<p class="card-text">Mr. Peter Python is joining us from India. He is here to speak with you about the advances in the Python programming 
                         language and how to you can switch over to Python in your line of work.</p>
-   </div>
-  </div>
- </div>
-</div> <!--close div class row-->
+     				</div>
+    			</div>
+   			</div>
+  		</div>
+ 	</div> <!--close div class row-->
+</section>	
 <!-- /speakers -->
 	
+	
 <!-- schedule -->
-<h2 id="schedule" class="display-4 text-center my-5 ">Schedule</h2>
-<ul class="list-group">
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Keynote: WordPress 5.0</h5>
-      <span class="badge badge-pill badge-dark p-2">9:00am</span>
-    </div>
-    <p class="mb-1">Bri Baker</p>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Android Development: How to have fun with Apps!</h5>
-      <span class="badge badge-pill badge-dark p-2">10:00am</span>
-    </div>
-    <p class="mb-1">Mr. Ted E. Bear</p>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Linux: Having fun with the penguin</h5>
-      <span class="badge badge-pill badge-dark p-2">11:00am</span>
-    </div>
+<section class="section-schedule" id="schedule">
+  <div class="container">
+	<h2 class="display-4 text-center my-5 ">Schedule</h2>
+		<ul class="list-group">
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Keynote: WordPress 5.0</h5>
+      					<span class="badge badge-pill badge-dark p-2">9:00am</span>
+</div>
+	<p class="mb-1">Bri Baker</p>
+		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Android Development: How to have fun with Apps!</h5>
+      					<span class="badge badge-pill badge-dark p-2">10:00am</span>
+</div>
+	<p class="mb-1">Mr. Ted E. Bear</p>
+  		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Linux: Having fun with the penguin</h5>
+      					<span class="badge badge-pill badge-dark p-2">11:00am</span>
+</div>
     <p class="mb-1">Mr. Lin Unx</p>
+  		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+     				 <h5 class="mb-1">Lunch Break</h5>
+      					<span class="badge badge-pill badge-dark p-2">12:00pm</span>
+</div>
   </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Lunch Break</h5>
-      <span class="badge badge-pill badge-dark p-2">12:00pm</span>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Adobe Color: Brighten up your world!</h5>
-      <span class="badge badge-pill badge-dark p-2">1:00pm</span>
-    </div>
+  	<li class="list-group-item">
+    	<div class="d-flex justify-content-between">
+      		<h5 class="mb-1">Adobe Color: Brighten up your world!</h5>
+      			<span class="badge badge-pill badge-dark p-2">1:00pm</span>
+</div>
     <p class="mb-1">Ms. Uni Corn</p>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Security: Are your files safe?</h5>
-      <span class="badge badge-pill badge-dark p-2">2:00pm</span>
-    </div>
+  		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Security: Are your files safe?</h5>
+      					<span class="badge badge-pill badge-dark p-2">2:00pm</span>
+</div>
     <p class="mb-1">Mr. Buster O. Criminals</p>
+  		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+     				<h5 class="mb-1">Snack Break</h5>
+      					<span class="badge badge-pill badge-dark p-2">3:00pm</span>
+</div>
   </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Snack Break</h5>
-      <span class="badge badge-pill badge-dark p-2">3:00pm</span>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">RAM: Are you up to speed?</h5>
-      <span class="badge badge-pill badge-dark p-2">3:30pm</span>
-    </div>
+  	<li class="list-group-item">
+    	<div class="d-flex justify-content-between">
+      		<h5 class="mb-1">RAM: Are you up to speed?</h5>
+      			<span class="badge badge-pill badge-dark p-2">3:30pm</span>
+</div>
     <p class="mb-1">Mr. Ramold Hardware</p>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Python: The SSSSuper Language!</h5>
-      <span class="badge badge-pill badge-dark p-2">4:30pm</span>
-    </div>
+  		</li>
+  			<li class="list-group-item">
+    			<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Python: The SSSSuper Language!</h5>
+      					<span class="badge badge-pill badge-dark p-2">4:30pm</span>
+</div>
     <p class="mb-1">Mr. Peter Python</p>
+  		</li>
+  			<li class="list-group-item">
+   				<div class="d-flex justify-content-between">
+      				<h5 class="mb-1">Cocktail Hour/Meet and Greet</h5>
+      					<span class="badge badge-pill badge-dark p-2">6:00pm</span>
+</div>
   </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Cocktail Hour/Meet and Greet</h5>
-      <span class="badge badge-pill badge-dark p-2">6:00pm</span>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Dinner</h5>
-      <span class="badge badge-pill badge-dark p-2">7:00pm</span>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="d-flex justify-content-between">
-      <h5 class="mb-1">Mixer Event</h5>
-      <span class="badge badge-pill badge-dark p-2">8:30pm</span>
-    </div>
-  </li>
-</ul>
+  	<li class="list-group-item">
+    	<div class="d-flex justify-content-between">
+      		<h5 class="mb-1">Dinner</h5>
+      			<span class="badge badge-pill badge-dark p-2">7:00pm</span>
+</div>
+	</li>
+  		<li class="list-group-item">
+    		<div class="d-flex justify-content-between">
+      			<h5 class="mb-1">Mixer Event</h5>
+      				<span class="badge badge-pill badge-dark p-2">8:30pm</span>
+  				</div>
+  			</li>
+		</ul>
+	</div>
+</section>
 <!-- /schedule -->
 	
+	  
 <!-- callout button -->
 <button type="button" class="btn btn-dark btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now! </button> 
 
+	  
 <!-- signup form -->
 <hr>
-<div class="row py-4 text-muted" id="signup">
+<section class="section-signup" id="signup">
   <div class="col-md col-xl-5">
     <p><strong>About Northwest Vista College</strong></p>
     <p>Northwest Vista College brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
@@ -263,12 +278,13 @@
       </div> <!--close input-group-append div -->
     </div> <!--close input div-->
   </div> <!--close col-md div-->
-</div> <!--close row signup div-->
+</section> <!--close row signup div-->
 <hr>
 <!-- /signup form -->
 	
+	  
 <!-- footer -->
-  <div class="row py-3">
+  <section class="section-footer" id="footer">
     <div class="col-md-7">
       <ul class="nav">
         <li class="nav-item">
@@ -294,9 +310,10 @@
     <div class="col-md text-md-right">
      <small>&copy; 2019 WordCamp &amp; Northwest Vista College</small>
     </div> <!--close col-md text-md-right div-->
-  </div> <!--close close row py-3 div-->
+  </section> <!--close close row py-3 div-->
 <!-- /footer -->
-</div> <!--close column 3 -->
+
+	  
 	  
 <!-- Modal -->
 <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -354,13 +371,13 @@
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
             <label class="form-check-label" for="defaultCheck1">
             PHP
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
             <label class="form-check-label" for="defaultCheck1">
             CSS and Javascipt
             </label>
